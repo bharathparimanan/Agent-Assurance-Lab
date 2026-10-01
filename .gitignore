@@ -1,0 +1,21 @@
+# Environment
+.env
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# Generated outputs (never commit raw logs or results — they contain ticket data)
+logs/
+results/
+reports/output/
+data/processed/
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# OS
+.DS_Store
